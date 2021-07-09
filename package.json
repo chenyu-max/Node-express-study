@@ -4,7 +4,8 @@
   "description": "NodeJS MySql 数据库 Sequelize 练习",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon -x npm run server",
+    "server": "node index"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "validate.js": "^0.13.1"
   },
   "devDependencies": {
-    "@types/node": "^16.0.0"
+    "@types/node": "^16.0.0",
+    "nodemon": "^2.0.10"
   }
 }
